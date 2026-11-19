@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cikrkiuuc2o7r"]
+
+[ext_resource type="PackedScene" uid="uid://b3h6i7uag8drc" path="res://Hmod/scenes/platform_basic.tscn" id="1_mwibk"]
+[ext_resource type="PackedScene" uid="uid://dh88myt72sj8l" path="res://Hmod/scenes/player.tscn" id="2_rdtdm"]
+
+[node name="TestLevel1" type="Node3D" unique_id=747241950]
+
+[node name="platformBasic" parent="." unique_id=1298036306 instance=ExtResource("1_mwibk")]
+
+[node name="platformBasic2" parent="." unique_id=1704269825 instance=ExtResource("1_mwibk")]
+transform = Transform3D(25, 0, 0, 0, 0.2, 0, 0, 0, 25, 17.891792, 0, 19.208769)
+
+[node name="player" parent="." unique_id=99326366 instance=ExtResource("2_rdtdm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.2557697, 0)
